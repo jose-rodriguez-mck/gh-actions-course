@@ -1,0 +1,10 @@
+name: 04 - Using Actions
+
+on: push
+
+jobs:
+    ubuntu-echo:
+        runs-on: ubuntu-latest
+
+        # 1. Install dependencies of our react app
+        # 2. Execute automated tests
